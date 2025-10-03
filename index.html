@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juxtaposition</title>
+
+    <style>
+        /* typo */
+    @import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+    body {font-family: "Miss Fajardose", cursive;}
+
+    /* mise en page */
+    body{
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+    }
+    div{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* visuel */
+    div { font-size: 20vw; }
+    #G { background-color: rgb(114, 9, 9);}
+    #D { background-color:beige; }
+
+
+    @media (orientation: portrait){
+        body{
+            flex-direction: column;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+
+    <div id="G">montre</div>
+    <div id="D">grandiose</div>
+    
+</body>
+</html>
